@@ -12,7 +12,7 @@ This README.md lists project members, goals, responsibilities, and a summary of 
 * Rashid Baset
 
 ### Project Scenario
-The King County housing market is experience low mortgage interest rates and a surge in buyers. A real estate company, Remax, has hired us to help them better understand factors affecting King County’s house sale prices for additional insights in the market considering a competitive buyer and seller landscape. 
+A real estate company, Remax, has hired us to help them better understand factors affecting King County’s house sale prices for additional insights in the market and home price guidance for their clients.  
 
 ### Project Goals
 - We want to provide inference of home prices in King County to get an understanding of where prices fall in the market. 
@@ -28,3 +28,13 @@ The King County housing market is experience low mortgage interest rates and a s
 - Generate multivariete regression model based on criteria to fit the training data. 
 - Test the optimized traiing model on the test data and evaluate score. 
 - Create a presentation to translate finidngs into actionable insights for the business application. 
+
+### Exploratory Analysis
+1.  Price distribution of homes 
+2.  Affect of sqft living on price
+3.  Affect of grade on price
+4.  Grade mean and price
+
+### Multivariable Regression 
+
+
