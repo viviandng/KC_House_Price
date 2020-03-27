@@ -12,11 +12,11 @@ This README.md lists project members, goals, responsibilities, and a summary of 
 * Rashid Baset
 
 ### Project Scenario
-Remax Realtors is interested in better understanding home valuation of their sellers and buyers in King County, WA. They want to know the sale price that most accurately reflects the value of unlisted homes and understand how certain features affect the sale price. They're interested in providing better recommendations to their clients that take into account the King County real estate market. 
+The King County housing market is experience low mortgage interest rates and a surge in buyers. A real estate company, Remax, has hired us to help them better understand factors affecting King County’s house sale prices for additional insights in the market considering a competitive buyer and seller landscape. 
 
 ### Project Goals
-- We want to provide home sale price reccomendations based on characteristics of a home and guague how features of a home effect the sale price in King County. 
-- We want to build a multivariete model to help us make the predictions. 
+- We want to provide inference of home prices in King County to get an understanding of where prices fall in the market. 
+- We want to provide inferential insight into the important features that positively affect home prices. 
 
 
 ### Methodology
@@ -28,5 +28,3 @@ Remax Realtors is interested in better understanding home valuation of their sel
 - Generate multivariete regression model based on criteria to fit the training data. 
 - Test the optimized traiing model on the test data and evaluate score. 
 - Create a presentation to translate finidngs into actionable insights for the business application. 
-
-
