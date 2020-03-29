@@ -1,11 +1,10 @@
 This README.md lists project members, goals, responsibilities, and a summary of the files in the repository. 
 
-### Project File Summary
-* README.md - a summary of all contents in this repository. 
-* /Data - dataset file including data cleaning
-* /EDA - exploratory data analysis 
-* /Modeling - Multivariete regression code 
-* /Project_Prompt - the guidelines for this project. 
+### Items in repo
+* kc_house_data_csv: King County house dataset
+* Kc_housing Notebook.ipynb: code for data processing and visualization
+* Kc_House.pdf: presentation slides
+* images: folder for visualizations
 
 ### Project Members
 * Vivian Dang
