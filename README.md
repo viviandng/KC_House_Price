@@ -1,29 +1,47 @@
-This README.md lists project members, goals, responsibilities, and a summary of the files in the repository. 
+# Data Science Bootcamp - Flatiron - Module 2 
+# Model Evaluation and Validation
+## Project: Predicting Boston Housing Prices
 
-### Items in repo
-* kc_house_data_csv: King County house dataset
-* Kc_housing Notebook.ipynb: code for data processing and visualization
-* Kc_House.pdf: presentation slides
-* images: folder for visualizations
+### Install
 
-### Project Members
-* Vivian Dang
-* Rashid Baset
+This project requires **Python** and the following Python libraries installed:
 
-### Project Scenario
-A real estate company, Remax, has hired us to help them better understand factors affecting King County’s house sale prices for additional insights in the market and home price guidance for their clients.  
+- [NumPy](http://www.numpy.org/)
+- [Pandas](http://pandas.pydata.org/)
+- [matplotlib](http://matplotlib.org/)
+- [scikit-learn](http://scikit-learn.org/stable/)
 
-### Project Goals
-- We want to provide inference of home prices in King County to get an understanding of where prices fall in the market. 
-- We want to provide inferential insight into the important features that positively affect home prices. 
+You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
 
+If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. 
 
-### Methodology
-- Identify business application. 
-- Identify target and predictor variables to focus on. 
-- Clean data
-- Investigate the data by providing Exploratory Data Analysis (EDA).
-- Determine criteria for classification.
-- Generate multivariete regression model based on criteria to fit the training data. 
-- Test the optimized traiing model on the test data and evaluate score. 
-- Create a presentation to translate finidngs into actionable insights for the business application. 
+### Code
+
+Template code is provided in the `boston_housing.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `housing.csv` dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. Note that the code included in `visuals.py` is meant to be used out-of-the-box and not intended for students to manipulate. If you are interested in how the visualizations are created in the notebook, please feel free to explore this Python file.
+
+### Run
+
+In a terminal or command window, navigate to the top-level project directory `boston_housing/` (that contains this README) and run one of the following commands:
+
+```bash
+ipython notebook boston_housing.ipynb
+```  
+or
+```bash
+jupyter notebook boston_housing.ipynb
+```
+
+This will open the Jupyter Notebook software and project file in your browser.
+
+### Data
+
+The modified Boston housing dataset consists of 489 data points, with each datapoint having 3 features. This dataset is a modified version of the Boston Housing dataset found on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Housing).
+
+**Features**
+1.  `RM`: average number of rooms per dwelling
+2. `LSTAT`: percentage of population considered lower status
+3. `PTRATIO`: pupil-teacher ratio by town
+
+**Target Variable**
+4. `MEDV`: median value of owner-occupied homes
+
